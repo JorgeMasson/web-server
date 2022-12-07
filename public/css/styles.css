@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+header a:hover {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #888888;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+.img-robot {
+    width: 350px;
+}
+
+.form-coordinates {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;        
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 3px;
+    width: 48%; 
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    padding: 8px;
+    color: white;
+}
+
+.btn-save {
+    margin-right: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;    
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 3px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.search-button {
+    width: 100px;
+}
+
+.location-input {
+    width: 210px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+input:hover {
+    border: 1px solid black;
+}
