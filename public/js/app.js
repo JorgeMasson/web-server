@@ -10,7 +10,7 @@ const locationData = document.getElementById('loc')
 
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  fetch("http://localhost:3000/weather?address=philadelphia").then(
+  fetch("/weather?address=philadelphia").then(
     (response) => {
       response.json().then((data) => {
         if (data.error) {
